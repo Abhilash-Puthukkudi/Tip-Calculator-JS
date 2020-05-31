@@ -1,0 +1,31 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Tip Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <form id="tipcalculator">
+           
+            <p>Bill Amount : <br>
+            <input type="text" id="bill-amt" placeholder="Enter bill Amount">
+            </p>
+
+            <p>Tip Percetage :<br>
+            <input type="range" id="tip-pr" value="0">
+            <span id="tip-value">00 % </span>    
+            </p>
+
+            <p>Tip Amount : <br>
+            <input type="number" id=tip-amt value=0 readonly disabled>
+            </p>
+
+            <p>Total Payable Amount : <br>
+            <input type="number" id="total-amt" value="0" readonly disabled>
+            </p>
+                
+         </form>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
