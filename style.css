@@ -19,3 +19,28 @@ body{
     align-items: center;
     justify-content: center;
 }
+#tipcalculator {
+    width: 750px;
+    padding: 5rem;
+    box-shadow: 1px 1px 10px #999;
+    text-align:center;
+}
+#tipcalculator p {
+    padding: 1.5rem;
+
+}
+#tipcalculator input:read-write,
+#tipcalculator input :read-only {
+padding: 0.5rem;
+margin-top: 1rem;
+min-width: 450px;
+font-size: 1.1rem;
+}
+#tip-calc input:read-write{
+    border: 2px solid #666;
+    color:#666
+}
+#tip-calc input:read-only {
+    border: 2px solid #ccc;
+    color: #444;
+}
