@@ -1,0 +1,1 @@
+Simple JavaScript Tip Calculator application 
