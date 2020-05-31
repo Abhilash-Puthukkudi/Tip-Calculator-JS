@@ -44,3 +44,25 @@ font-size: 1.1rem;
     border: 2px solid #ccc;
     color: #444;
 }
+#tip-pr{
+    margin-top: 3rem;
+    -webkit-appearance: none;
+    width: 450px;
+    height: 0;
+    border-bottom: 1px solid #444;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+
+}
+#tip-pr:hover{
+    opacity: 1;
+}
+#tip-pr::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #444;
+    cursor: pointer;
+}
